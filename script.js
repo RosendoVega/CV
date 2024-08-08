@@ -38,8 +38,8 @@ let java = document.getElementById("java");
 crearBarra(java);
 let spring = document.getElementById("spring");
 crearBarra(spring);
-let maria = document.getElementById("maria");
-crearBarra(maria);
+let cells = document.getElementById("cells");
+crearBarra(cells);
 let sql = document.getElementById("sql");
 crearBarra(sql);
 
@@ -60,19 +60,19 @@ function efectoHabilidades(){
             pintarBarra(html, 16, 0, intervalHtml);
         },100);
         const intervalJavascript = setInterval(function(){
-            pintarBarra(javascript, 11, 1, intervalJavascript);
+            pintarBarra(javascript, 16, 1, intervalJavascript);
         },100);
         const intervaljava = setInterval(function(){
-            pintarBarra(java, 11, 2, intervaljava);
+            pintarBarra(java, 16, 2, intervaljava);
         },100);
         const intervalspring = setInterval(function(){
             pintarBarra(spring, 15, 3, intervalspring);
         },100);
-        const intervalmaria = setInterval(function(){
-            pintarBarra(maria, 16, 4, intervalmaria);
+        const intervalcells = setInterval(function(){
+            pintarBarra(cells, 16, 4, intervalcells);
         },100);
         const intervalsql = setInterval(function(){
-            pintarBarra(sql, 11, 5, intervalsql);
+            pintarBarra(sql, 16, 5, intervalsql);
         },100);
     }
 }
